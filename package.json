@@ -5,8 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"start":"node index.js"
+    "start": "node index.js"
   },
   "author": "Iurii Petukhin",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.13.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
 }
